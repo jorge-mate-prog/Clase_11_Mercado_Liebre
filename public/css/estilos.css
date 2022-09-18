@@ -1,0 +1,75 @@
+/*Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+/* font-family: 'Roboto', sans-serif;*/
+body{
+    background-color: #eac926;
+    font-family: "Roboto",sans-serif;
+}
+p{
+    color: black;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+nav{
+    display: none;
+}
+.titulares h2{
+    color: red;
+    font-size: 24px;
+}
+.precio h3{
+    font-size: 18px;
+}
+.descuento p{
+    font-size: 16px;
+}
+
+.descripcion{
+    color: #666;
+    margin-top: 20px;
+    transition: all 5s;
+    display: none;
+}
+.descripcion p{
+    font-size: 16px;
+    font-weight: normal;
+}
+@media (min-width: 361px){
+    .descripcion{
+        display: initial;
+    }
+    section article {
+
+    }
+    .articulo {
+        width: 45%;
+    }
+}
+.cajaProducto{
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+.cajaProducto p{
+    text-align: initial;
+}
+.cajaProducto i{
+    display: flex;
+    font-size: 16px;
+    position: absolute;
+    right: 35px;
+    top: -15px;
+}
+/* footer i:hover{
+    color:#1259C3
+} */
