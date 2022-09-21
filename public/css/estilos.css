@@ -9,28 +9,76 @@ body{
     background-color: #eac926;
     font-family: "Roboto",sans-serif;
 }
+.contenedor{
+    align-items: center;
+}
 p{
     color: black;
     font-size: 12px;
 }
-a{
+nav{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li a{
+    color: #ebebeb;
+    font-size: 16pt;
     text-decoration: none;
     color:black;
 }
-nav{
-    display: none;
+i.fa-magnifying-glass{
+    font-size: 20pt;
+    color:#03264C;
+}
+i.fa-hand-holding-box{
+    font-size: 40pt;
+    color:#03264C;
+/*    width: 50px;
+    height: 50px;
+   padding: 10px 10px;
+   background-color: white;  */
 }
 .titulares h2{
     color: red;
     font-size: 24px;
 }
+
 .precio h3{
     font-size: 18px;
 }
 .descuento p{
     font-size: 16px;
 }
+img#logo {
+    width: 400px;
+}
 
+#buscar{
+    width: 400px;
+    height: 30px;
+    background: white;
+    border: solid 1px black;
+}
+
+.burger-menu{
+   width: 60px;
+   height: 60px;
+   background:#03264C;
+   border-radius: 15px;
+   align-items: center;
+   justify-content: center;
+}
+
+i.icono {
+     width: 50px;
+     height: 50px;
+    color: #ebebeb;
+    font-size: 40px;
+    padding: 10px 10px;
+}
 .descripcion{
     color: #666;
     margin-top: 20px;
